@@ -1,0 +1,8 @@
+package com.pF.E_commerce.domain;
+
+public enum PaymentStatus {
+    PENDING,
+    PROCESSING,
+    COMPLETED,
+    FAILED
+}

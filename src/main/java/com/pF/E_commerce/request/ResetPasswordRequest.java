@@ -1,0 +1,12 @@
+package com.pF.E_commerce.request;
+
+import lombok.Data;
+
+@Data
+public class ResetPasswordRequest {
+
+    private String password;
+    private String token;
+
+
+}
