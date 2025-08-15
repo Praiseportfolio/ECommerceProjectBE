@@ -85,8 +85,8 @@ public class OcrService {
             if (line.toLowerCase().contains("shopping")) continue;
             if (line.toLowerCase().contains("list")) continue;
 
-            // Remove all digits
-            String cleaned = line.replaceAll("\\d+", "").trim();
+            // Remove everything that's not an alphabet (including digits, punctuation, etc.)
+            String cleaned = line.replaceAll("[^A-Za-z ]", "").trim();
 
             if (!cleaned.isEmpty()) {
                 refined.add(cleaned);

@@ -31,9 +31,9 @@ public class EmailService {
 
         try{
             Email email = new Email();
-            email.setFrom("Sender Test", "MS_BzxjZk@test-y7zpl98mx7345vx6.mlsender.net");
+            email.setFrom("Sender Test", "MS_aT1A8W@test-68zxl27zoe54j905.mlsender.net");
 
-            email.addRecipient("Test Name", "ayodejiadedej396@gmail.com");
+            email.addRecipient("Test Name", "freshproduce1fp@gmail.com");
 //            email.replyTo("Reply To", "freshproduce1fp@gmail.com");
 
             email.setSubject("Email subject");
